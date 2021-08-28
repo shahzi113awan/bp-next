@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js --prefix server",
